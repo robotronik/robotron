@@ -1615,4 +1615,98 @@ Wire Wire Line
 	4350 1150 4150 1150
 Wire Wire Line
 	9500 2350 9700 2350
+$Comp
+L Mechanical:MountingHole_Pad H1
+U 1 1 5D7AD61D
+P 7850 1100
+F 0 "H1" H 7950 1149 50  0000 L CNN
+F 1 "MountingHole_Pad" H 7950 1058 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad" H 7850 1100 50  0001 C CNN
+F 3 "~" H 7850 1100 50  0001 C CNN
+	1    7850 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H2
+U 1 1 5D7B129A
+P 8300 750
+F 0 "H2" H 8400 799 50  0000 L CNN
+F 1 "MountingHole_Pad" H 8400 708 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad" H 8300 750 50  0001 C CNN
+F 3 "~" H 8300 750 50  0001 C CNN
+	1    8300 750 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H3
+U 1 1 5D7B861C
+P 9000 1050
+F 0 "H3" H 9100 1099 50  0000 L CNN
+F 1 "MountingHole_Pad" H 9100 1008 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad" H 9000 1050 50  0001 C CNN
+F 3 "~" H 9000 1050 50  0001 C CNN
+	1    9000 1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H4
+U 1 1 5D7BFABA
+P 9400 1050
+F 0 "H4" H 9500 1099 50  0000 L CNN
+F 1 "MountingHole_Pad" H 9500 1008 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad" H 9400 1050 50  0001 C CNN
+F 3 "~" H 9400 1050 50  0001 C CNN
+	1    9400 1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0102
+U 1 1 5D7E3474
+P 7850 1200
+F 0 "#PWR0102" H 7850 950 50  0001 C CNN
+F 1 "GND" H 7855 1027 50  0000 C CNN
+F 2 "" H 7850 1200 50  0001 C CNN
+F 3 "" H 7850 1200 50  0001 C CNN
+	1    7850 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0103
+U 1 1 5D7E3B01
+P 8300 900
+F 0 "#PWR0103" H 8300 650 50  0001 C CNN
+F 1 "GND" H 8305 727 50  0000 C CNN
+F 2 "" H 8300 900 50  0001 C CNN
+F 3 "" H 8300 900 50  0001 C CNN
+	1    8300 900 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0104
+U 1 1 5D7E67B6
+P 9000 1200
+F 0 "#PWR0104" H 9000 950 50  0001 C CNN
+F 1 "GND" H 9005 1027 50  0000 C CNN
+F 2 "" H 9000 1200 50  0001 C CNN
+F 3 "" H 9000 1200 50  0001 C CNN
+	1    9000 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0105
+U 1 1 5D7EDB48
+P 9400 1200
+F 0 "#PWR0105" H 9400 950 50  0001 C CNN
+F 1 "GND" H 9405 1027 50  0000 C CNN
+F 2 "" H 9400 1200 50  0001 C CNN
+F 3 "" H 9400 1200 50  0001 C CNN
+	1    9400 1200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8300 850  8300 900 
+Wire Wire Line
+	9000 1150 9000 1200
+Wire Wire Line
+	9400 1150 9400 1200
 $EndSCHEMATC

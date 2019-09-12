@@ -87,39 +87,6 @@ F 3 "" H 3550 2900 50  0001 C CNN
 	1    3550 2900
 	1    0    0    -1  
 $EndComp
-$Comp
-L Init-rescue:D-Device D1
-U 1 1 5943F8C6
-P 4300 2450
-F 0 "D1" H 4300 2550 50  0000 C CNN
-F 1 "D" H 4300 2350 50  0000 C CNN
-F 2 "Diode_THT:D_A-405_P10.16mm_Horizontal" H 4300 2450 50  0001 C CNN
-F 3 "" H 4300 2450 50  0001 C CNN
-	1    4300 2450
-	-1   0    0    1   
-$EndComp
-$Comp
-L Init-rescue:R-Device R12
-U 1 1 5D7A531F
-P 4850 2750
-F 0 "R12" V 4930 2750 50  0000 C CNN
-F 1 "330kR" V 4850 2750 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 4780 2750 50  0001 C CNN
-F 3 "" H 4850 2750 50  0001 C CNN
-	1    4850 2750
-	1    0    0    -1  
-$EndComp
-$Comp
-L Init-rescue:C-Device C8
-U 1 1 5D7A5320
-P 5200 2750
-F 0 "C8" H 5225 2850 50  0000 L CNN
-F 1 "100nC" H 5225 2650 50  0000 L CNN
-F 2 "Capacitor_THT:C_Rect_L7.0mm_W2.5mm_P5.00mm" H 5238 2600 50  0001 C CNN
-F 3 "" H 5200 2750 50  0001 C CNN
-	1    5200 2750
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	3350 2550 3050 2550
 Wire Wire Line
@@ -154,17 +121,6 @@ F 3 "" H 4850 3200 50  0001 C CNN
 $EndComp
 Connection ~ 4850 3000
 $Comp
-L Init-rescue:CONN_01X03-Robot_sumo-rescue J2
-U 1 1 5D7A5322
-P 750 2350
-F 0 "J2" H 750 2550 50  0000 C CNN
-F 1 "CONN_C1" V 850 2350 50  0000 C CNN
-F 2 "Connector_Molex:Molex_KK-254_AE-6410-03A_1x03_P2.54mm_Vertical" H 750 2350 50  0001 C CNN
-F 3 "" H 750 2350 50  0001 C CNN
-	1    750  2350
-	-1   0    0    1   
-$EndComp
-$Comp
 L Init-rescue:+5V-power #PWR02
 U 1 1 5D7A5323
 P 1100 2450
@@ -177,28 +133,6 @@ F 3 "" H 1100 2450 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	1100 2450 950  2450
-$Comp
-L Init-rescue:R-Device Rlim2
-U 1 1 5D7A5324
-P 1050 1800
-F 0 "Rlim2" V 1130 1800 50  0000 C CNN
-F 1 "82R" V 1050 1800 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 980 1800 50  0001 C CNN
-F 3 "" H 1050 1800 50  0001 C CNN
-	1    1050 1800
-	-1   0    0    1   
-$EndComp
-$Comp
-L Init-rescue:R-Device Rmes2
-U 1 1 5D7A5325
-P 1250 2100
-F 0 "Rmes2" V 1330 2100 50  0000 C CNN
-F 1 "10kR" V 1250 2100 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 1180 2100 50  0001 C CNN
-F 3 "" H 1250 2100 50  0001 C CNN
-	1    1250 2100
-	-1   0    0    1   
-$EndComp
 $Comp
 L Init-rescue:GND-power #PWR03
 U 1 1 5944A20B
@@ -219,39 +153,6 @@ Wire Wire Line
 	3050 2550 3050 3200
 Wire Wire Line
 	3050 3200 4600 3200
-$Comp
-L Init-rescue:R-Device R1
-U 1 1 59468FB8
-P 2300 2150
-F 0 "R1" V 2380 2150 50  0000 C CNN
-F 1 "300kR" V 2300 2150 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 2230 2150 50  0001 C CNN
-F 3 "" H 2300 2150 50  0001 C CNN
-	1    2300 2150
-	1    0    0    -1  
-$EndComp
-$Comp
-L Init-rescue:R-Device R3
-U 1 1 59468FEF
-P 2300 2550
-F 0 "R3" V 2380 2550 50  0000 C CNN
-F 1 "300kR" V 2300 2550 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 2230 2550 50  0001 C CNN
-F 3 "" H 2300 2550 50  0001 C CNN
-	1    2300 2550
-	1    0    0    -1  
-$EndComp
-$Comp
-L Init-rescue:C-Device C2
-U 1 1 59469023
-P 1900 2350
-F 0 "C2" H 1925 2450 50  0000 L CNN
-F 1 "1nC" H 1925 2250 50  0000 L CNN
-F 2 "Capacitor_THT:C_Rect_L7.0mm_W2.5mm_P5.00mm" H 1938 2200 50  0001 C CNN
-F 3 "" H 1900 2350 50  0001 C CNN
-	1    1900 2350
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	950  2350 1250 2350
 Wire Wire Line
@@ -311,39 +212,6 @@ F 3 "" H 9100 2800 50  0001 C CNN
 	1    9100 2800
 	1    0    0    -1  
 $EndComp
-$Comp
-L Init-rescue:D-Device D5
-U 1 1 5946A54A
-P 9850 2350
-F 0 "D5" H 9850 2450 50  0000 C CNN
-F 1 "D" H 9850 2250 50  0000 C CNN
-F 2 "Diode_THT:D_A-405_P10.16mm_Horizontal" H 9850 2350 50  0001 C CNN
-F 3 "" H 9850 2350 50  0001 C CNN
-	1    9850 2350
-	-1   0    0    1   
-$EndComp
-$Comp
-L Init-rescue:R-Device R24
-U 1 1 5D7A5330
-P 10400 2650
-F 0 "R24" V 10480 2650 50  0000 C CNN
-F 1 "R" V 10400 2650 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 10330 2650 50  0001 C CNN
-F 3 "" H 10400 2650 50  0001 C CNN
-	1    10400 2650
-	1    0    0    -1  
-$EndComp
-$Comp
-L Init-rescue:C-Device C15
-U 1 1 5946A556
-P 10750 2650
-F 0 "C15" H 10775 2750 50  0000 L CNN
-F 1 "C" H 10775 2550 50  0000 L CNN
-F 2 "Capacitor_THT:C_Rect_L7.0mm_W2.5mm_P5.00mm" H 10788 2500 50  0001 C CNN
-F 3 "" H 10750 2650 50  0001 C CNN
-	1    10750 2650
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	8900 2450 8600 2450
 Wire Wire Line
@@ -376,17 +244,6 @@ F 3 "" H 10400 3100 50  0001 C CNN
 $EndComp
 Connection ~ 10400 2900
 $Comp
-L Init-rescue:CONN_01X03-Robot_sumo-rescue J6
-U 1 1 5946A56E
-P 6150 2200
-F 0 "J6" H 6150 2400 50  0000 C CNN
-F 1 "CONN_C2" V 6250 2200 50  0000 C CNN
-F 2 "Connector_Molex:Molex_KK-254_AE-6410-03A_1x03_P2.54mm_Vertical" H 6150 2200 50  0001 C CNN
-F 3 "" H 6150 2200 50  0001 C CNN
-	1    6150 2200
-	-1   0    0    1   
-$EndComp
-$Comp
 L Init-rescue:+5V-power #PWR035
 U 1 1 5946A574
 P 6650 2350
@@ -396,28 +253,6 @@ F 2 "" H 6650 2350 50  0001 C CNN
 F 3 "" H 6650 2350 50  0001 C CNN
 	1    6650 2350
 	0    1    1    0   
-$EndComp
-$Comp
-L Init-rescue:R-Device Rlim6
-U 1 1 5D7A5335
-P 6600 1700
-F 0 "Rlim6" V 6680 1700 50  0000 C CNN
-F 1 "R" V 6600 1700 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 6530 1700 50  0001 C CNN
-F 3 "" H 6600 1700 50  0001 C CNN
-	1    6600 1700
-	-1   0    0    1   
-$EndComp
-$Comp
-L Init-rescue:R-Device Rmes6
-U 1 1 5D7A5336
-P 6800 2000
-F 0 "Rmes6" V 6880 2000 50  0000 C CNN
-F 1 "R" V 6800 2000 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 6730 2000 50  0001 C CNN
-F 3 "" H 6800 2000 50  0001 C CNN
-	1    6800 2000
-	-1   0    0    1   
 $EndComp
 $Comp
 L Init-rescue:GND-power #PWR039
@@ -441,39 +276,6 @@ Wire Wire Line
 	8600 2450 8600 3100
 Wire Wire Line
 	8600 3100 10150 3100
-$Comp
-L Init-rescue:R-Device R15
-U 1 1 5946A596
-P 7850 2050
-F 0 "R15" V 7930 2050 50  0000 C CNN
-F 1 "R" V 7850 2050 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 7780 2050 50  0001 C CNN
-F 3 "" H 7850 2050 50  0001 C CNN
-	1    7850 2050
-	1    0    0    -1  
-$EndComp
-$Comp
-L Init-rescue:R-Device R17
-U 1 1 5946A59C
-P 7850 2450
-F 0 "R17" V 7930 2450 50  0000 C CNN
-F 1 "R" V 7850 2450 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 7780 2450 50  0001 C CNN
-F 3 "" H 7850 2450 50  0001 C CNN
-	1    7850 2450
-	1    0    0    -1  
-$EndComp
-$Comp
-L Init-rescue:C-Device C11
-U 1 1 5946A5A2
-P 7450 2250
-F 0 "C11" H 7475 2350 50  0000 L CNN
-F 1 "C" H 7475 2150 50  0000 L CNN
-F 2 "Capacitor_THT:C_Rect_L7.0mm_W2.5mm_P5.00mm" H 7488 2100 50  0001 C CNN
-F 3 "" H 7450 2250 50  0001 C CNN
-	1    7450 2250
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	6800 2250 6800 2150
 Connection ~ 6800 2250
@@ -533,39 +335,6 @@ F 3 "" H 3800 5650 50  0001 C CNN
 	1    3800 5650
 	1    0    0    -1  
 $EndComp
-$Comp
-L Init-rescue:D-Device D4
-U 1 1 5D7A5340
-P 4550 5200
-F 0 "D4" H 4550 5300 50  0000 C CNN
-F 1 "D" H 4550 5100 50  0000 C CNN
-F 2 "Diode_THT:D_A-405_P10.16mm_Horizontal" H 4550 5200 50  0001 C CNN
-F 3 "" H 4550 5200 50  0001 C CNN
-	1    4550 5200
-	-1   0    0    1   
-$EndComp
-$Comp
-L Init-rescue:R-Device R13
-U 1 1 5946BB48
-P 5100 5500
-F 0 "R13" V 5180 5500 50  0000 C CNN
-F 1 "R" V 5100 5500 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 5030 5500 50  0001 C CNN
-F 3 "" H 5100 5500 50  0001 C CNN
-	1    5100 5500
-	1    0    0    -1  
-$EndComp
-$Comp
-L Init-rescue:C-Device C9
-U 1 1 5946BB4E
-P 5450 5500
-F 0 "C9" H 5475 5600 50  0000 L CNN
-F 1 "C" H 5475 5400 50  0000 L CNN
-F 2 "Capacitor_THT:C_Rect_L7.0mm_W2.5mm_P5.00mm" H 5488 5350 50  0001 C CNN
-F 3 "" H 5450 5500 50  0001 C CNN
-	1    5450 5500
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	3600 5300 3300 5300
 Wire Wire Line
@@ -600,17 +369,6 @@ F 3 "" H 5100 5950 50  0001 C CNN
 $EndComp
 Connection ~ 5100 5750
 $Comp
-L Init-rescue:CONN_01X03-Robot_sumo-rescue J3
-U 1 1 5946BB66
-P 1000 5100
-F 0 "J3" H 1000 5300 50  0000 C CNN
-F 1 "CONN_C3" V 1100 5100 50  0000 C CNN
-F 2 "Connector_Molex:Molex_KK-254_AE-6410-03A_1x03_P2.54mm_Vertical" H 1000 5100 50  0001 C CNN
-F 3 "" H 1000 5100 50  0001 C CNN
-	1    1000 5100
-	-1   0    0    1   
-$EndComp
-$Comp
 L Init-rescue:+5V-power #PWR05
 U 1 1 5946BB6C
 P 1350 5200
@@ -623,28 +381,6 @@ F 3 "" H 1350 5200 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	1350 5200 1200 5200
-$Comp
-L Init-rescue:R-Device Rlim3
-U 1 1 5946BB73
-P 1300 4550
-F 0 "Rlim3" V 1380 4550 50  0000 C CNN
-F 1 "R" V 1300 4550 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 1230 4550 50  0001 C CNN
-F 3 "" H 1300 4550 50  0001 C CNN
-	1    1300 4550
-	-1   0    0    1   
-$EndComp
-$Comp
-L Init-rescue:R-Device Rmes4
-U 1 1 5D7A5347
-P 1500 4850
-F 0 "Rmes4" V 1580 4850 50  0000 C CNN
-F 1 "R" V 1500 4850 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 1430 4850 50  0001 C CNN
-F 3 "" H 1500 4850 50  0001 C CNN
-	1    1500 4850
-	-1   0    0    1   
-$EndComp
 $Comp
 L Init-rescue:GND-power #PWR09
 U 1 1 5D7A5348
@@ -669,39 +405,6 @@ Wire Wire Line
 	3300 5300 3300 5950
 Wire Wire Line
 	3300 5950 4850 5950
-$Comp
-L Init-rescue:R-Device R5
-U 1 1 5946BB8E
-P 2550 4900
-F 0 "R5" V 2630 4900 50  0000 C CNN
-F 1 "R" V 2550 4900 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 2480 4900 50  0001 C CNN
-F 3 "" H 2550 4900 50  0001 C CNN
-	1    2550 4900
-	1    0    0    -1  
-$EndComp
-$Comp
-L Init-rescue:R-Device R7
-U 1 1 5946BB94
-P 2550 5300
-F 0 "R7" V 2630 5300 50  0000 C CNN
-F 1 "R" V 2550 5300 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 2480 5300 50  0001 C CNN
-F 3 "" H 2550 5300 50  0001 C CNN
-	1    2550 5300
-	1    0    0    -1  
-$EndComp
-$Comp
-L Init-rescue:C-Device C4
-U 1 1 5946BB9A
-P 2150 5100
-F 0 "C4" H 2175 5200 50  0000 L CNN
-F 1 "C" H 2175 5000 50  0000 L CNN
-F 2 "Capacitor_THT:C_Rect_L7.0mm_W2.5mm_P5.00mm" H 2188 4950 50  0001 C CNN
-F 3 "" H 2150 5100 50  0001 C CNN
-	1    2150 5100
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	1200 5100 1500 5100
 Wire Wire Line
@@ -763,39 +466,6 @@ F 3 "" H 9150 5700 50  0001 C CNN
 	1    9150 5700
 	1    0    0    -1  
 $EndComp
-$Comp
-L Init-rescue:D-Device D7
-U 1 1 5946C7B2
-P 9900 5250
-F 0 "D7" H 9900 5350 50  0000 C CNN
-F 1 "D" H 9900 5150 50  0000 C CNN
-F 2 "Diode_THT:D_A-405_P10.16mm_Horizontal" H 9900 5250 50  0001 C CNN
-F 3 "" H 9900 5250 50  0001 C CNN
-	1    9900 5250
-	-1   0    0    1   
-$EndComp
-$Comp
-L Init-rescue:R-Device R25
-U 1 1 5946C7B8
-P 10450 5550
-F 0 "R25" V 10530 5550 50  0000 C CNN
-F 1 "R" V 10450 5550 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 10380 5550 50  0001 C CNN
-F 3 "" H 10450 5550 50  0001 C CNN
-	1    10450 5550
-	1    0    0    -1  
-$EndComp
-$Comp
-L Init-rescue:C-Device C17
-U 1 1 5946C7BE
-P 10800 5550
-F 0 "C17" H 10825 5650 50  0000 L CNN
-F 1 "C" H 10825 5450 50  0000 L CNN
-F 2 "Capacitor_THT:C_Rect_L7.0mm_W2.5mm_P5.00mm" H 10838 5400 50  0001 C CNN
-F 3 "" H 10800 5550 50  0001 C CNN
-	1    10800 5550
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	8950 5350 8650 5350
 Wire Wire Line
@@ -830,17 +500,6 @@ F 3 "" H 10450 6000 50  0001 C CNN
 $EndComp
 Connection ~ 10450 5800
 $Comp
-L Init-rescue:CONN_01X03-Robot_sumo-rescue J8
-U 1 1 5946C7D6
-P 6350 5150
-F 0 "J8" H 6350 5350 50  0000 C CNN
-F 1 "CONN_C4" V 6450 5150 50  0000 C CNN
-F 2 "Connector_Molex:Molex_KK-254_AE-6410-03A_1x03_P2.54mm_Vertical" H 6350 5150 50  0001 C CNN
-F 3 "" H 6350 5150 50  0001 C CNN
-	1    6350 5150
-	-1   0    0    1   
-$EndComp
-$Comp
 L Init-rescue:+5V-power #PWR038
 U 1 1 5D7A5356
 P 6700 5250
@@ -853,28 +512,6 @@ F 3 "" H 6700 5250 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	6700 5250 6550 5250
-$Comp
-L Init-rescue:R-Device Rlim8
-U 1 1 5D7A5357
-P 6650 4600
-F 0 "Rlim8" V 6730 4600 50  0000 C CNN
-F 1 "R" V 6650 4600 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 6580 4600 50  0001 C CNN
-F 3 "" H 6650 4600 50  0001 C CNN
-	1    6650 4600
-	-1   0    0    1   
-$EndComp
-$Comp
-L Init-rescue:R-Device Rmes8
-U 1 1 5D7A5358
-P 6850 4900
-F 0 "Rmes8" V 6930 4900 50  0000 C CNN
-F 1 "R" V 6850 4900 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 6780 4900 50  0001 C CNN
-F 3 "" H 6850 4900 50  0001 C CNN
-	1    6850 4900
-	-1   0    0    1   
-$EndComp
 $Comp
 L Init-rescue:GND-power #PWR042
 U 1 1 5D7A5359
@@ -899,39 +536,6 @@ Wire Wire Line
 	8650 5350 8650 6000
 Wire Wire Line
 	8650 6000 10200 6000
-$Comp
-L Init-rescue:R-Device R20
-U 1 1 5D7A535A
-P 7900 4950
-F 0 "R20" V 7980 4950 50  0000 C CNN
-F 1 "R" V 7900 4950 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 7830 4950 50  0001 C CNN
-F 3 "" H 7900 4950 50  0001 C CNN
-	1    7900 4950
-	1    0    0    -1  
-$EndComp
-$Comp
-L Init-rescue:R-Device R22
-U 1 1 5D7A535B
-P 7900 5350
-F 0 "R22" V 7980 5350 50  0000 C CNN
-F 1 "R" V 7900 5350 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 7830 5350 50  0001 C CNN
-F 3 "" H 7900 5350 50  0001 C CNN
-	1    7900 5350
-	1    0    0    -1  
-$EndComp
-$Comp
-L Init-rescue:C-Device C14
-U 1 1 5D7A535C
-P 7500 5150
-F 0 "C14" H 7525 5250 50  0000 L CNN
-F 1 "C" H 7525 5050 50  0000 L CNN
-F 2 "Capacitor_THT:C_Rect_L7.0mm_W2.5mm_P5.00mm" H 7538 5000 50  0001 C CNN
-F 3 "" H 7500 5150 50  0001 C CNN
-	1    7500 5150
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	6550 5150 6850 5150
 Wire Wire Line
@@ -1874,8 +1478,6 @@ Connection ~ 3050 7050
 Wire Wire Line
 	2350 6600 3050 6600
 Connection ~ 3050 6600
-Wire Wire Line
-	4450 2550 4450 2600
 Text Notes 6800 2950 0    60   ~ 0
 fosc=4,7kHz\n\ncourant max 200mA
 Wire Wire Line
@@ -1886,23 +1488,18 @@ Wire Wire Line
 	6350 2150 6350 2100
 Wire Wire Line
 	6350 2150 6600 2150
-Connection ~ 6350 2100
 Wire Wire Line
 	6350 2250 6350 2200
 Wire Wire Line
 	6350 2250 6800 2250
-Connection ~ 6350 2200
 Wire Wire Line
 	6350 2350 6350 2300
 Wire Wire Line
 	6350 2350 6650 2350
-Connection ~ 6350 2300
 Wire Wire Line
 	1050 1950 1050 2250
 Wire Wire Line
 	1050 2250 950  2250
-Connection ~ 1050 1950
-Connection ~ 950  2250
 Connection ~ 6650 2350
 Wire Wire Line
 	2600 7050 2600 6800
@@ -2018,5 +1615,4 @@ Wire Wire Line
 	4350 1150 4150 1150
 Wire Wire Line
 	9500 2350 9700 2350
-Connection ~ 9700 2350
 $EndSCHEMATC
